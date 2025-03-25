@@ -1,81 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>David's Blog - Home</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
-<script src="script.js"></script>
 <body>
-
   <!-- HEADER -->
   <header class="site-header">
     <div class="container">
-      <h1 class="blog-title">David's Blog</h1>
+      <div class="logo-container">
+        <div class="logo">LOGO</div>
+      </div>
       <nav class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="active">Combat</a></li>
+          <li><a href="#">Flicks</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Sets</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- HERO SECTION (optional) -->
-  <section class="hero">
-    <div class="container">
-      <h2>Welcome to David's Blog</h2>
-      <p>Insights, stories, and ideas, all in one place.</p>
+  <!-- MAIN CONTENT -->
+  <main class="container main-content">
+    <div class="two-column-layout">
+      <!-- Left Column -->
+      <div class="left-column">
+        <!-- SoundCloud Embed -->
+        <section class="soundcloud-section">
+          <h2>Latest Tracks</h2>
+          <div class="soundcloud-embed">
+            <!-- Placeholder for SoundCloud embed -->
+            <div class="embed-placeholder">
+              SoundCloud Embed Placeholder
+            </div>
+          </div>
+        </section>
+
+        <!-- YouTube Embed -->
+        <section class="youtube-section">
+          <h2>Featured Video</h2>
+          <div class="youtube-embed">
+            <!-- Placeholder for YouTube embed -->
+            <div class="embed-placeholder">
+              YouTube Embed Placeholder
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Latest Blog Post -->
+        <section class="blog-section">
+          <h2>Latest Post</h2>
+          <article class="blog-post">
+            <h3 class="post-title">Latest Post Title</h3>
+            <div class="post-meta">
+              <span class="post-date">March 25, 2025</span>
+              <span class="post-author">By: Admin</span>
+            </div>
+            <div class="post-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae justo 
+                vel velit euismod tincidunt. Nullam euismod, nisi vel tincidunt euismod, 
+                nisi velit euismod velit, nec euismod nisi velit euismod velit.
+              </p>
+              <p>
+                Sed vitae justo vel velit euismod tincidunt. Nullam euismod, nisi vel 
+                tincidunt euismod, nisi velit euismod velit, nec euismod nisi velit 
+                euismod velit.
+              </p>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+        </section>
+      </div>
     </div>
-  </section>
-
-  <!-- MAIN CONTENT - BLOG POSTS -->
-  <main class="container">
-
-    <!-- Blog Post #1 -->
-    <article class="blog-post">
-      <h2 class="post-title">First Blog Post</h2>
-      <div class="post-meta">
-        <span class="post-date">Published: Feb 15, 2025</span>
-        <span class="post-author">By: David</span>
-      </div>
-      <p class="post-content">
-        Welcome to my first blog post. This is where I share my thoughts on some cool stuff!
-      </p>
-      <a href="#" class="read-more">Read More</a>
-    </article>
-
-    <!-- Blog Post #2 -->
-    <article class="blog-post">
-      <h2 class="post-title">Another Great Topic</h2>
-      <div class="post-meta">
-        <span class="post-date">Published: Jan 30, 2025</span>
-        <span class="post-author">By: David</span>
-      </div>
-      <p class="post-content">
-        In this post, I explore some cool things! Stay tuned!
-      </p>
-      <a href="#" class="read-more">Read More</a>
-    </article>
-
-    <!-- Add more blog posts similarly... -->
-
   </main>
 
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2025 David's Blog</p>
-      <p>
-        Follow me on
-        <a href="https://twitter.com/" target="_blank">Twitter</a> |
-        <a href="https://github.com/" target="_blank">GitHub</a>
-      </p>
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>&copy; 2025 Your Website</p>
+        </div>
+        <div class="social-links">
+          <p>Follow on: 
+            <a href="https://twitter.com/" target="_blank"><i class="social-icon">Twitter</i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="social-icon">Instagram</i></a>
+            <a href="https://youtube.com/" target="_blank"><i class="social-icon">YouTube</i></a>
+            <a href="https://soundcloud.com/" target="_blank"><i class="social-icon">SoundCloud</i></a>
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
-
-
 </body>
 </html>
