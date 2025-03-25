@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Replace placeholder with actual SoundCloud iframe
       // You would need the actual SoundCloud embed code here
     }
-    
+      
     // YouTube embed example
     const ytEmbed = document.querySelector('.youtube-embed');
     if (ytEmbed) {
